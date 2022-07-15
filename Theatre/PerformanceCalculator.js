@@ -1,3 +1,7 @@
+function createPerformanceCalculator(aPerformance, aPlay) {
+  return new PerformanceCalculator(aPerformance, aPlay);
+}
+
 class PerformanceCalculator {
   constructor(aPerformance, aPlay) {
     this.performance = aPerformance;
@@ -34,4 +38,4 @@ class PerformanceCalculator {
   }
 }
 
-module.exports = { PerformanceCalculator };
+module.exports = { createPerformanceCalculator, PerformanceCalculator };
