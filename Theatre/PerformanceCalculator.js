@@ -33,6 +33,7 @@ class TragedyCalculator extends PerformanceCalculator {
     return result;
   }
 }
+
 class ComedyCalculator extends PerformanceCalculator {
   get amount() {
     let result = 30000;
